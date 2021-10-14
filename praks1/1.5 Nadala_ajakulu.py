@@ -1,0 +1,5 @@
+ainepunktide_arv = int(input("Sisestage ainepunktide arv: "))
+ainepunkti_ajakulu = int(26)
+nadalate_arv = int(input("Sisestage nädalate arv: "))
+ajakulu_kokku = str(round(ainepunktide_arv * ainepunkti_ajakulu / nadalate_arv))
+print (ajakulu_kokku)
